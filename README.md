@@ -28,6 +28,7 @@ Please download and unzip the files to a directory /data inside the root folder.
 * datetime
 * os 
 * sys
+* pydicom
 
 ###
 
@@ -54,3 +55,9 @@ Then you can startup a Python interpreter or
 jupyter notebook
 ```
 to launch the notebooks
+
+### Other libraries
+
+```shell
+pip install -U pydicom
+````
