@@ -2,7 +2,13 @@
 This is a final project repository for course 520.612: Machine Learning for Signal Processing at Johns Hopkins University. The project is based off of the kaggle competition. (Datasets are not included but can be found from kaggle with proper terms of agreement)
 
 ### Getting the Data
-The data can be found through the kaggle competition: 
+The data can be found through the kaggle competition: https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data. It can also be downloaded through the kaggle api: 
+
+```shell
+kaggle competitions download -c rsna-pneumonia-detection-challenge
+```
+
+Please download and unzip the files to a directory /data inside the root folder. The .gitignore is set to ignore the data due to both the terms of usage with kaggle and the size. 
 
 ### Libraries
 
