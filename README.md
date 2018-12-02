@@ -60,4 +60,24 @@ to launch the notebooks
 
 ```shell
 pip install -U pydicom
+```
+Keras and Tensor Flow Installation
+
+```shell
+$ source ~/use_anaconda.sh
+sudo pip3 install keras
+conda install -c conda-forge tensorflow
+pip install opencv-python
+
+```
+
+Running everything from top level folder assuming data is already installed in data and dependendicies are installed
+
+```shell
+$ source ~/use_anaconda.sh
+cd data
+cd ../keras-retinanet
+python3 setup.py build_ext --inplace
+cd ..
+python data_preparation.py
 ````
